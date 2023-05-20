@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mini_topics/expanded_form.dart';
+import 'package:flutter_mini_topics/expanded_layout.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ExampleForm(),
+      home: const ExampleExpandedLayout(),
     );
   }
 }

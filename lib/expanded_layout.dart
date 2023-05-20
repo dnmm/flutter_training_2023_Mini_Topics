@@ -9,19 +9,29 @@ class ExampleExpandedLayout extends StatelessWidget {
         body: Column(
       children: [
         Expanded(
-            child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            child: Column(
           children: [
-            Expanded(
-                child: ElevatedButton(
-              onPressed: () {},
-              child: const Text("Stack"),
-            )),
-            Expanded(
-                child: ElevatedButton(
-              onPressed: () {},
-              child: const Text("Forms"),
-            ))
+            Container(
+              width: 200,
+              height: 200,
+              color: Colors.blue,
+              child: Image.asset('assets/images/sample.jpeg'),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Expanded(
+                    child: ElevatedButton(
+                  onPressed: () {},
+                  child: const Text("Stack"),
+                )),
+                Expanded(
+                    child: ElevatedButton(
+                  onPressed: () {},
+                  child: const Text("Forms"),
+                ))
+              ],
+            ),
           ],
         )),
         Expanded(
