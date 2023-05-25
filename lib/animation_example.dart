@@ -42,7 +42,7 @@ class _AnimationExampleState extends State<AnimationExample> {
                 decoration: BoxDecoration(
                     color: _color, borderRadius: _borderRadiusGeometry),
                 child: Image.asset(
-                  "assets/sample.png",
+                  "assets/images/sample.jpeg",
                   width: 200,
                   height: 200,
                   fit: BoxFit.cover,

@@ -12,7 +12,7 @@ class TabBarExample extends StatelessWidget {
       body: DefaultTabController(
           length: 2,
           child: Container(
-            color: Colors.black,
+            color: Colors.blue,
             child: Column(
               children: const [
                 TabBar(tabs: [
@@ -42,14 +42,15 @@ class ImageTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return Scaffold(
+        body: Center(
       child: Image.asset(
         "assets/images/sample.jpeg",
         width: 200,
         height: 200,
         fit: BoxFit.cover,
       ),
-    );
+    ));
   }
 }
 
@@ -58,13 +59,15 @@ class CardTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
-      child: Card(
-        child: Padding(
-          padding: EdgeInsets.all(16.0),
-          child: Text(
-            "this is sample card",
-            style: TextStyle(fontSize: 20),
+    return const Scaffold(
+      body: Center(
+        child: Card(
+          child: Padding(
+            padding: EdgeInsets.all(16.0),
+            child: Text(
+              "this is sample card",
+              style: TextStyle(fontSize: 20),
+            ),
           ),
         ),
       ),

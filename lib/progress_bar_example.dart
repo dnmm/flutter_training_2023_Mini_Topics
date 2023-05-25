@@ -44,8 +44,7 @@ class _MyProgressBarExampleState extends State<MyProgressBarExample> {
                 height: 20,
               ),
               ElevatedButton(
-                  onPressed: simulateProgress,
-                  child: const Text("SeekBar Example")),
+                  onPressed: () {}, child: const Text("SeekBar Example")),
               Slider(
                   value: _seekBarValue,
                   min: 0.0,
@@ -56,7 +55,7 @@ class _MyProgressBarExampleState extends State<MyProgressBarExample> {
                     });
                   }),
               Text(
-                "Value :${_seekBarValue.toStringAsFixed(0)}",
+                "Value :${_seekBarValue.toStringAsFixed(2)}",
                 style: const TextStyle(fontSize: 16.0),
               )
             ],
