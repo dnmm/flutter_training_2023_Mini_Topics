@@ -13,8 +13,8 @@ class TabBarExample extends StatelessWidget {
           length: 2,
           child: Container(
             color: Colors.blue,
-            child: Column(
-              children: const [
+            child: const Column(
+              children: [
                 TabBar(tabs: [
                   Tab(
                     icon: Icon(Icons.image),
