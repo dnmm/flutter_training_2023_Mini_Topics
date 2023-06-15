@@ -38,8 +38,20 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "equatable",
+      "rootUri": "file:///Users/dinanathmaurya/.pub-cache/hosted/pub.dev/equatable-2.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "fake_async",
       "rootUri": "file:///Users/dinanathmaurya/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "fl_chart",
+      "rootUri": "file:///Users/dinanathmaurya/.pub-cache/hosted/pub.dev/fl_chart-0.35.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -60,6 +72,24 @@
       "rootUri": "file:///Users/dinanathmaurya/Developer/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "http",
+      "rootUri": "file:///Users/dinanathmaurya/.pub-cache/hosted/pub.dev/http-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/dinanathmaurya/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///Users/dinanathmaurya/.pub-cache/hosted/pub.dev/intl-0.18.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "js",
@@ -98,6 +128,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "pedantic",
+      "rootUri": "file:///Users/dinanathmaurya/.pub-cache/hosted/pub.dev/pedantic-1.11.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "simple_gesture_detector",
+      "rootUri": "file:///Users/dinanathmaurya/.pub-cache/hosted/pub.dev/simple_gesture_detector-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///Users/dinanathmaurya/Developer/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -128,6 +170,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "table_calendar",
+      "rootUri": "file:///Users/dinanathmaurya/.pub-cache/hosted/pub.dev/table_calendar-3.0.9",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///Users/dinanathmaurya/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
@@ -138,6 +186,12 @@
       "rootUri": "file:///Users/dinanathmaurya/.pub-cache/hosted/pub.dev/test_api-0.5.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "typed_data",
+      "rootUri": "file:///Users/dinanathmaurya/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "vector_math",
@@ -152,7 +206,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-05-31T09:41:16.142477Z",
+  "generated": "2023-06-15T11:54:20.048856Z",
   "generator": "pub",
-  "generatorVersion": "3.0.2"
+  "generatorVersion": "3.0.3"
 }
