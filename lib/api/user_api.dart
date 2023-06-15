@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 class UserApi {
   static Future<List<DataModel>> fetchUsers() async {
     final response = await http.get(Uri.parse(
-        "https://crudcrud.com/api/65d589a04ed04436a2b6b62468658e1d/usersdatalist"));
+        "https://crudcrud.com/api/acf76f6cfdb94d8bbc2f3cb076eed8ab%2Fusersdatalist"));
 
     if (response.statusCode == 200) {
       final jsonData = json.decode(response.body) as List<dynamic>;
@@ -21,7 +21,7 @@ class UserApi {
 
   static Future<String> postData(username, email, password) async {
     final url = Uri.parse(
-        "https://crudcrud.com/api/65d589a04ed04436a2b6b62468658e1d/usersdatalist");
+        "https://crudcrud.com/api/acf76f6cfdb94d8bbc2f3cb076eed8ab%2Fusersdatalist");
 
     final headers = <String, String>{'Content-Type': 'application/json'};
     final body = jsonEncode(<String, dynamic>{

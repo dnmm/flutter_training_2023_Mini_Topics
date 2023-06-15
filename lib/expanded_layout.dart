@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mini_topics/alert_dialog.dart';
 import 'package:flutter_mini_topics/animation_example.dart';
+import 'package:flutter_mini_topics/bar_chart_example.dart';
+import 'package:flutter_mini_topics/calender_example.dart';
 import 'package:flutter_mini_topics/expanded_form.dart';
+import 'package:flutter_mini_topics/login_screen.dart';
 import 'package:flutter_mini_topics/progress_bar_example.dart';
 import 'package:flutter_mini_topics/radio_button_example.dart';
+import 'package:flutter_mini_topics/sliver_screen.dart';
 import 'package:flutter_mini_topics/stack_example.dart';
 import 'package:flutter_mini_topics/tab_bar_example.dart';
+import 'package:flutter_mini_topics/table_example.dart';
 
 class ExampleExpandedLayout extends StatelessWidget {
   const ExampleExpandedLayout({super.key});
@@ -101,16 +106,82 @@ class ExampleExpandedLayout extends StatelessWidget {
               child: Align(
                 alignment: Alignment.bottomLeft,
                 child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) =>
+                                const MyRadioButtonExample()));
+                  },
+                  child: const Text("Radio Button Example"),
+                ),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.bottomRight,
+                child: ElevatedButton(
                     onPressed: () {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) =>
-                                  const MyRadioButtonExample()));
+                              builder: (context) => const BarChartExample()));
                     },
-                    child: const Text("Radio Button Example")),
+                    child: const Text("Chart Example")),
               ),
-            )
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.bottomRight,
+                child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const LoginScreen()));
+                    },
+                    child: const Text("Networking Example")),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.bottomRight,
+                child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) =>const  TableExample()));
+                    },
+                    child: const Text("Table Example")),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.bottomLeft,
+                child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) =>const  SilverScreen()));
+                    },
+                    child: const Text("Sliver Example")),
+              ),
+            ),
+            Expanded(
+              child: Align(
+                alignment: Alignment.bottomLeft,
+                child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const CalenderExample()));
+                    },
+                    child: const Text("Calender Example")),
+              ),
+            ),
           ],
         ));
   }
